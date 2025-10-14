@@ -7,7 +7,7 @@ const playFair = Playfair({
   subsets: ["latin"],
 });
 
-type IntroInformation = {
+export type IntroInformation = {
   firstName: string;
   middleName: string;
   lastName: string;
