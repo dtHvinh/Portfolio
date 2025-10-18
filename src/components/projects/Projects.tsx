@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/security/noDangerouslySetInnerHtml: <explanation> */
 import { ExternalLink } from "lucide-react";
 import type { Ref } from "react";
 
@@ -50,7 +51,7 @@ export default function Projects({
                 </div>
                 <ul className="list-disc list-inside text-muted-foreground space-y-1">
                   {project.features.map((feature, i) => (
-                    <li key={i}>{feature}.</li>
+                    <li key={i} dangerouslySetInnerHTML={{ __html: feature }} />
                   ))}
                 </ul>
               </div>

@@ -7,6 +7,17 @@ export const projects: ProjectType[] = [
     .withDescription(
       "Developed a full-stack web application for ask and answering question"
     )
+    .withKeyWords([
+      "Next.js",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "SignalR",
+      "SQL Server",
+      "Supabase",
+      "Redis",
+      "Tailwind CSS",
+      "JWT Bearer",
+    ])
     .withFeatures([
       "Designed the user interface using Next.js and Tailwind CSS",
       "Developed RESTful API with ASP.NET Core Web API and JWT Bearer for user authentication",
@@ -25,6 +36,19 @@ export const projects: ProjectType[] = [
 
   ProjectBuilder.create()
     .withName("English Learning Platform")
+    .withKeyWords([
+      "Next.js",
+      "ASP.NET Core",
+      "Entity Framework Core",
+      "GPT",
+      "LLM",
+      "Piper TTS",
+      "PostgreSQL",
+      "Redis",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "JWT Bearer",
+    ])
     .withDescription(
       "Developed a web application for learning English with blog, flashcard, course, test exam, and voice communication with AI."
     )
