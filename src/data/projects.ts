@@ -31,7 +31,7 @@ export const projects: ProjectType[] = [
     .withFeatures([
       "Designed the user interface using Next.js, Tailwind CSS, and Shadcn UI.",
       "Developed RESTful API with ASP.NET Core Web API and JWT Bearer for user authentication.",
-      "Utilized ORM with Entity Framework Core for SQL Server for efficient data access.",
+      "Utilized ORM with Entity Framework Core for PostgreSQL for efficient data access.",
       "Redis caching for user blacklist.",
       "Developed features for users to read and write blogs, learn courses, use flashcards, and take exams.",
       "Integrated GPT LLM with Piper TTS for real-time voice communication with AI.",
